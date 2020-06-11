@@ -25,8 +25,8 @@ Implementation of RESTful Api using Spring Boot, Bearer and MySQL
 | PUT  | {url}/products/$ID  | { "name" : "name" } OR { "category" : "category" } OR { "price" : "price" }  | Updates the product with the $ID with a new name/category/price  |
 | GET  | {url}/products  | -  | Retrieves the list with products  |
 | GET  | {url}/products/$ID  | -  | $ID needs to be replaced with the wanted it. It will return the product with that id!  |
-| GET  | {url}/produtcs/category/$CATEGORY  | -  | $CATEGORY has to be replaced with searched category. It will return a list with products in that category!  |
-| GET  | {url}/produtcs/name/$NAME  | -  | $NAME has to be replaced with searched name. It will return the info for the product with that name!  |
+| GET  | {url}/products/category/$CATEGORY  | -  | $CATEGORY has to be replaced with searched category. It will return a list with products in that category!  |
+| GET  | {url}/products/name/$NAME  | -  | $NAME has to be replaced with searched name. It will return the info for the product with that name!  |
 | DELETE  | {url}/products/$ID  | -  | Deletes a product.  |
 
 
