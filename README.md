@@ -37,9 +37,9 @@ For this program to work, a MySQL server is needed (local) with port 3308, and y
 spring.datasource.username=username
 spring.datasource.password=password
 ```
-You can also change the port or the name of the database on the following line, changing the bolded text for the port and the italic text for the name.
+You can also change the port or the name of the database on the following line, changing "3308" to the new port and "bootdb" to a new name for the Database.
 ```
-spring.datasource.url=jdbc:mysql://localhost:**3308**/*bootdb*?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
+spring.datasource.url=jdbc:mysql://localhost:3308/bootdb?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
 ```
 where username represents the username for the database, and password the password. There is no need to create a new database, as the application will
 create a new one on its own, called **bootdb**.
