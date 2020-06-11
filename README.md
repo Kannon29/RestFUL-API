@@ -43,3 +43,5 @@ spring.datasource.url=jdbc:mysql://localhost:3308/bootdb?createDatabaseIfNotExis
 ```
 where username represents the username for the database, and password the password. There is no need to create a new database, as the application will
 create a new one on its own, called **bootdb**.
+
+On the security part, the requests are limited to 5 requests per minute, with a refill rate of 10 tokens per minute.
