@@ -32,10 +32,14 @@ Implementation of RESTful Api using Spring Boot, Bearer and MySQL
 
 The program has been tested and written using IntelliJ IDEA, MySQL and Postman.
 
-For this program to work, a MySQL server is needed (local) with port 3308, and you have to edit the following lines in **src/resources/application.properties**:
+For this program to work, a MySQL server is needed (local) with port 3308, and you have to edit the following lines in **src/main/resources/application.properties**:
 ```
 spring.datasource.username=username
 spring.datasource.password=password
+```
+You can also change the port or the name of the database on the following line, changing the bolded text for the port and the italic text for the name.
+```
+spring.datasource.url=jdbc:mysql://localhost:**3308**/*bootdb*?createDatabaseIfNotExist=true&autoReconnect=true&useSSL=false
 ```
 where username represents the username for the database, and password the password. There is no need to create a new database, as the application will
 create a new one on its own, called **bootdb**.
