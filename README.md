@@ -12,7 +12,7 @@ Implementation of RESTful Api using Spring Boot, Bearer and MySQL
 - JPA
 - Bearer
 
-# Quick demo
+# Quick Demo
 [YouTube Video](https://www.youtube.com/watch?v=nkYVHxQB1N8&feature=youtu.be/)
 
 # Description
